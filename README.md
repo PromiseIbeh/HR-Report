@@ -58,6 +58,10 @@ how to create a table here
 |sql| sql|
 
 
+**Bold**
+*italic*
+
+
 
 
 
