@@ -34,7 +34,7 @@ The covid dataset used for this project is an open dataset, made available on ka
 
 ### Data Analysis
 ``sql
-this is the part where i'll include the queries that answers my queations
+this is the part where i'll include the queries that answers my queations and end it with tahat ``
 
 ### Result
 the summary of the analysis are as follows;
@@ -50,6 +50,14 @@ mention the limitations, the buts, what might affect your conclusions
 ### Reference
 
 where you got any form of help, be it a book, a site or a person
+
+
+how to create a table here
+|heading|heading|
+|-------|-------|
+|sql| sql|
+
+
 
 
 
