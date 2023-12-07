@@ -12,7 +12,7 @@
 - [Reference](#reference)
 
 ### Project Overview
-The aim of this project is to give the Human Resources team an insigh into the reason, rate and trend of employees absenteeism rate. The HR team would like the get a list of healthiest employees for in order to give them a bonus which total budget is $1000, they also would want to the employees who don't smoke  rate of absenteeism, reasons,
+The aim of this project is to present Human Resources team with an analysis to help them understand absenteeism at work. they would like to know the reasons, rate and trend of employees absenteeism at work. The HR team would also like the get a list of the healthiest employees in order to give them a bonus, which total budget amount is $1000, they also would want to give an annual compensation to workers who don't smoke and the budget amount is $983,221.
 
 ### Data sources
 The dataset used for this project is an open dataset made available to public on Kaggle.
