@@ -53,8 +53,8 @@ WHERE Social_drinker =0 AND Social_smoker =0 and Body_mass_index <25
 AND Absenteeism_time_in_hours < (SELECT AVG(Absenteeism_time_in_hours) FROM absenteeism)
 
 -- compensation rate for non smokers/ Budget $983,221. 
--- total hours worked by non-smokers employees=8hrs * 52weeks * 686 employetes =1,426,880.
---Percentage of increase = 983,221/1,426,880 = 0.68
+-- total hours worked by non-smokers employees  //  8hrs daily* 5day * 52weeks * 686 employees non_smokers  =1,426,880.
+--Percentage of increase //  budget (983,221) /total hors (1,426,880) = 0.68
 
 --number of non-smokers employees
 SELECT COUNT(*)
@@ -141,12 +141,10 @@ the summary of the analysis are as follows;
 - 
 
 ### limitations
-
-mention the limitations, the buts, what might affect your conclusions
+- The dataset does not have any information on the year
+- There is no information on the nature of the company or business operations this dataset was created from, therefore, limiting understanding and usage of the dataset to create more insigh and provide recommendation.
 
 ### Reference
-
-where you got any form of help, be it a book, a site or a person
 
 
 
