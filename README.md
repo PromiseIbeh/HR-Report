@@ -1,4 +1,4 @@
-## HR Absenteeism Report
+## Absenteeism Report
 ### Table of Content
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
