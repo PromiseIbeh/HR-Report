@@ -12,7 +12,7 @@
 - [Reference](#reference)
 
 ### Project Overview
-The aim of this project is to analyse the covid dataset to get information on the impact 0f covid in Nigeria. We want to know the death rate, infection rate, chances of getting infected with covid in Nigeria, percentage of people who has taken the vacine.
+The aim of this project is to give the Human Resources team an insigh into the reason, rate and trend of employees absenteeism rate. The HR team would like the get a list of healthiest employees for in order to give them a bonus which total budget is $1000, they also would want to the employees who don't smoke  rate of absenteeism, reasons,
 
 ### Data sources
 The dataset used for this project is an open dataset made available to public on Kaggle.
@@ -129,16 +129,16 @@ GROUP BY [Disciplinary_failure];
 
 ### Result
 the summary of the analysis are as follows;
-1. There were 5124 hours of employee absences in that specific year.
-2. the company has 54 employees who who are social smokers and 418 employees who are social drinkers. 
+1. There is a total of 5124 hours of employee absences in that specific year.
+2. the company has 54 employees who are social smokers and 418 employees who are social drinkers. 
 3. The month of January has the lowest rate of 222hrs of employees absence, and a slight increase to 294hrs in the month of February.
-4. The month of March has the highest absenteeism rate (765 hours), followed by a decline in April and May and another significant increase in June.
-5. Bseason, summer appears to have the most employee absence hours (1647 hours), while winter appears to have the fewest employee absence hours (930 hours).
+4. The month of March has the highest absenteeism rate (765 hours), followed by a decline in April and May and another significant increase in June to 734hrs.
+5. By seasons, summer appears to have the most employee absence hours (1647 hours), while winter appears to have the lowest employee absence hours (930 hours).
 6. 729hours in the total of 5124hours was as a result of physical injuries, poisoning and injuries caused by external factors, which is the top 2 reasons of employees absence.
 
 ### Recommendations
 - Stakeholders and management should provide more safety equipment for the employees and conduct a thorough sensitization campaign on how to use protective equipment while on duty to reduce the level of injuries at work. As one of the main causes of employee absences from work are injuries, poisoning and certain consequences of external causes, which has cost the company valuable hours of productivity.
-- 
+  
 
 ### limitations
 - The dataset does not have any information on the year
