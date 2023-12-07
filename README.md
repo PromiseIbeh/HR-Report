@@ -1,4 +1,4 @@
-# HR Absentteism Report
+## HR Absenteeism Report
 ### Table of Content
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -121,8 +121,8 @@ GROUP BY [Social_smoker]
 SELECT [Disciplinary_failure],
 COUNT(*)*100/(SELECT COUNT([Disciplinary_failure]) FROM Absenteeism)
 FROM Absenteeism
-GROUP BY [Disciplinary_failure]```
-
+GROUP BY [Disciplinary_failure];
+```
 
 ### Result
 the summary of the analysis are as follows;
