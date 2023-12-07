@@ -15,23 +15,26 @@
 The aim of this project is to analyse the covid dataset to get information on the impact 0f covid in Nigeria. We want to know the death rate, infection rate, chances of getting infected with covid in Nigeria, percentage of people who has taken the vacine.
 
 ### Data sources
-The covid dataset used for this project is an open dataset, made available on kaggle for for public use.
+The dataset used for this project is an open dataset made available to public on Kaggle.
 
 ### Tools
-- SQL server - used to analyse data
-- PowerBi - used to create report
+- SQL server - I used sql for data cleaning 
+- PowerBi - used to transform data and create Dashboard
 
 ### Data Cleaning
 1. remove irrelevant columns
-2. change data types
+2. convert month number to month name
+3. convert day number to day name
+4. create calculated columns
 
 ### Exploratory Data Analysis
-- what is the rate of death in 2020
-- what is the infection rate
-- what are the chances you'll be infected with covid
-- what
+- Provide a list of healthy individuals with low absenteeism for a healthy bonus program
+- -calculate a wage increase or annual compensation for non-smokers
+- Create a dashboard for the HR to understand absenteeism at work
 
 ### Data Analysis
+This contain the some interesting querries that i used to retrieve neccessary information from the dataset
+
 ```sql
 --join all the table to get one usable table
 
@@ -126,10 +129,16 @@ GROUP BY [Disciplinary_failure];
 
 ### Result
 the summary of the analysis are as follows;
-this is where you add the summary of your analysis, what are your findings
+1. There were 5124 hours of employee absences in that specific year.
+2. the company has 54 employees who who are social smokers and 418 employees who are social drinkers. 
+3. The month of January has the lowest rate of 222hrs of employees absence, and a slight increase to 294hrs in the month of February.
+4. The month of March has the highest absenteeism rate (765 hours), followed by a decline in April and May and another significant increase in June.
+5. Bseason, summer appears to have the most employee absence hours (1647 hours), while winter appears to have the fewest employee absence hours (930 hours).
+6. 729hours in the total of 5124hours was as a result of physical injuries, poisoning and injuries caused by external factors, which is the top 2 reasons of employees absence.
 
 ### Recommendations
-recommendations based on your analysis based on your findings
+- Stakeholders and management should provide more safety equipment for the employees and conduct a thorough sensitization campaign on how to use protective equipment while on duty to reduce the level of injuries at work. As one of the main causes of employee absences from work are injuries, poisoning and certain consequences of external causes, which has cost the company valuable hours of productivity.
+- 
 
 ### limitations
 
@@ -139,15 +148,6 @@ mention the limitations, the buts, what might affect your conclusions
 
 where you got any form of help, be it a book, a site or a person
 
-
-how to create a table here
-|heading|heading|
-|-------|-------|
-|sql| sql|
-
-
-**Bold**
-*italic*
 
 
 
