@@ -33,7 +33,7 @@ The dataset used for this project is an open dataset made available to public on
 - Create a dashboard for the HR to understand absenteeism at work
 
 ### Data Analysis
-This contain the some interesting querries that i used to retrieve neccessary information from the dataset
+This contain the some interesting querries that i used to transform and retrieve neccessary information from the dataset
 
 ```sql
 --join all the table to get one usable table
