@@ -128,7 +128,7 @@ GROUP BY [Disciplinary_failure];
 ```
 ### Visual Report
 
-![](Screenshot 2023-12-05 143123.png)
+![](dashboard_png.png)
 
 ### Result
 the summary of the analysis are as follows;
