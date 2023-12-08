@@ -126,6 +126,7 @@ COUNT(*)*100/(SELECT COUNT([Disciplinary_failure]) FROM Absenteeism)
 FROM Absenteeism
 GROUP BY [Disciplinary_failure];
 ```
+### Visual Report
 
 ### Result
 the summary of the analysis are as follows;
