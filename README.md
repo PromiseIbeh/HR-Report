@@ -128,6 +128,8 @@ GROUP BY [Disciplinary_failure];
 ```
 ### Visual Report
 
+![](Screenshot 2023-12-05 143123.png)
+
 ### Result
 the summary of the analysis are as follows;
 1. There is a total of 5124 hours of employee absences in that specific year.
